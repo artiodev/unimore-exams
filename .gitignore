@@ -1,0 +1,15 @@
+.DS_Store
+.Debug/
+.Release/
+*/.vs
+*/Solution/.vs
+*/Solution/Debug
+*/Solution/Release
+*/Solution/*/Debug
+*/Solution/*/Release
+*/Debug
+*/Release
+Laboratorio20140806/Solution/ConsoleApplication1/.vs
+Laboratorio20140806/Solution/ConsoleApplication1/ConsoleApplication1/Debug
+Laboratorio20140806/Solution/ConsoleApplication1/ConsoleApplication1/Release
+Laboratorio20130806/Solution/ConsoleApplication1/ConsoleApplication1/Debug

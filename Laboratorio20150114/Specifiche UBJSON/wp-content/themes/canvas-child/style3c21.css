@@ -1,0 +1,36 @@
+/*
+Theme Name:     Canvas - Child
+Theme URI:      http://woothemes.com/
+Description:    Child theme for the Canvas theme 
+Author:         Riyad Kalla
+Author URI:     http://ubjson.org
+Template:       canvas
+Version:        0.1.0
+*/
+ 
+@import url("../canvas/style.css");
+
+/*
+ 	Added	03/28/13
+ 	Author	Riyad Kalla
+	Reason	Default Canvas 2.2+ theme has a #navigation:margin-bottom of 3em which ends up
+		separating the nav bar and the body content by almost 50px. The body content
+		(beginning with the H1 header) already has a top-margin that does sufficient
+		spacing. This change was made to remove the 3em margin-bottom from the nav.
+*/
+#navigation {
+	margin-bottom: 0;
+}
+
+/*
+	Added	01/07/14
+	Author	Riyad Kalla
+	Reason	Help make code-examples stand out in the page more clearly and not blend too
+		easily with the normal paragraph formatting around them; for example, on the
+		container-type and value-type pages.
+*/
+pre {
+	background-color: #FFFFE1;
+	border: 1px solid #DDDDDD;
+	padding: 1em;
+}
